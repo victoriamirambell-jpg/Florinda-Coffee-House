@@ -1,3 +1,5 @@
+/*Inicio*/
+
 * {
   margin:0;
   padding:0;
@@ -213,7 +215,6 @@ footer {
     font-size:0.95rem;
   }
 
-}
   .gallery{
     flex-direction:column;
     align-items:center;
@@ -234,7 +235,7 @@ footer {
 
 
 
-
+/*Sobre Nosotros*/
 
 
 .sobre-nosotros{
@@ -377,11 +378,7 @@ footer {
 }
 
 
-
-
-
-
-
+/*Contacto*/
 
 .contacto{
     padding: 80px 10%;
@@ -515,15 +512,7 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
+/*Menu*/
 
 .menu{
     background-color: #fff0f3;
@@ -685,7 +674,7 @@ footer {
 
 
 
-
+/*Galeria*/
 
 .galeria {
   padding: 60px 40px;
@@ -762,6 +751,7 @@ footer {
 }
 
 
+/*responsive*/
 
 .recomendacion{
     background:#fff0f3;
