@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florinda Coffee House</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Florinda</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="sobre-nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="Galeria.html">Galeria</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Un café, un momento</h2>
+    <p>Disfrutá de una experiencia cálida con productos artesanales.</p>
+   <a href="menu.html" class="btn primary">Ver menú</a>
+   <a href="contacto.html" class="btn primary">Contactanos</a>
+  </div>
+  <img src="inicio.png">
+</section>
+
+
+
+<section class="about">
+  <img src="plato.png">
+  <div>
+    <h3>Sobre Nosotros</h3>
+    <p>Florinda Coffee House es un espacio pensado para disfrutar del café en un ambiente cuidado, con identidad y productos artesanales.</p>
+
+    <br>
+
+   <a href="sobre-nosotros.html" class="btn secondary">Leer más</a>
+  </div>
+</section>
+
+<section class="section-grid">
+
+  <div class="gallery-container">
+
+    <h3>Galería</h3>
+
+   <a href="Galeria.html">
+  <button class="btn primary">Ver</button>
+</a>
+
+    <div class="gallery">
+      <img src="imagena.jpeg" alt="Galería 1">
+      <img src="imagenb.jpg" alt="Galería 2">
+      <img src="imagenc.jpg" alt="Galería 3">
+    </div>
+
+  </div>
+
+
+  <div class="map">
+    <h3>Ubicación</h3>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.573326432659!2d-58.44054412444685!3d-34.61494927295024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2cafea8923%3A0x555b64a48bb4ca9!2sFLORINDA%20Coffee%20House!5e0!3m2!1ses-419!2sar!4v1776869089892!5m2!1ses-419!2sar"
+    width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+    <a href="https://maps.google.com" target="_blank">
+      <button class="btn primary">Cómo llegar</button>
+    </a>
+  </div>
+</section>
+
+<section class="recomendacion">
+
+    <div class="recomendacion-contenido">
+
+        <h2>¿Qué te recomendamos hoy?</h2>
+
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Escribí tu nombre">
+
+        <br><br>
+
+        <button onclick="recomendarProducto()" class="btn primary">
+            Ver recomendación
+        </button>
+
+        <p id="mensaje"></p>
+
+    </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Florinda Coffee House</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
